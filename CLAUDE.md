@@ -1,9 +1,9 @@
 # Guidance for agents
 
-This repo is a knowledge base for startup engineering. When a user connects to it:
+This repo is a skill library for startup engineering. When a user connects to it:
 
 - Orient via root `README.md`, then folder READMEs.
-- Content types: `knowledge/` (concepts), `skills/` (how-to), `prototypes/` (runnable), `case-studies/` (real examples).
-- New content: copy the matching file from `templates/` and fill it in. Preserve frontmatter.
+- Content type: `code-quality/` (agent-style skills, each in its own folder with a `SKILL.md`).
+- New skill: copy `templates/skill.md` into a new folder as `SKILL.md` and fill it in. Preserve frontmatter.
 - Conventions live in `meta/README.md`.
-- Keep notes atomic — one idea per file, linked rather than duplicated.
+- Keep skills atomic — one skill per folder, linked rather than duplicated.
