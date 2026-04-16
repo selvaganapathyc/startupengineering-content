@@ -10,6 +10,16 @@ This repo is the backend for [startupengineering.io](https://startupengineering.
 
 ## Structure
 
-- [`code-quality/`](./code-quality) — skills for writing and reviewing high-quality code.
+Skills are grouped by where they live in the SDLC:
+
+- [`planning-and-design/`](./planning-and-design) — decide what to build.
+- [`implementation/`](./implementation) — how to build it well.
+- [`code-quality/`](./code-quality) — keep the codebase healthy.
+- [`security-and-performance/`](./security-and-performance) — harden and speed up.
+- [`delivery-and-operations/`](./delivery-and-operations) — ship and run it.
+- [`agent-workflow/`](./agent-workflow) — meta-skills for working with agents.
+
+Plus:
+
 - [`templates/`](./templates) — reusable doc/code templates.
 - [`meta/`](./meta) — conventions, taxonomy, contribution guide.
