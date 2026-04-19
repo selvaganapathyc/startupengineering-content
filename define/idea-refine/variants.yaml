@@ -9,6 +9,7 @@ variants:
     source_url: https://github.com/selvaganapathyc/startupengineering
     source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/idea-refine/SKILL.md
     install_command: /plugin install selvaganapathyc/startupengineering
+    license: MIT
     last_verified: '2026-04-19'
     layers:
       skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/idea-refine/SKILL.md

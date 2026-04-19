@@ -3,29 +3,41 @@ variants:
     name: MongoDB Schema Design
     author: MongoDB
     author_type: company
-    context_fit: "For teams building on MongoDB. Covers anti-patterns, fundamentals, and 11 design patterns — the document-model guidance MongoDB's own team uses."
-    recommender_note: "Reach for this when you're on MongoDB. It's maintained by MongoDB, kept current with Atlas's own Performance Advisor and Schema Suggestions, and covers the anti-patterns most teams don't learn until they hit them in production."
+    context_fit: >-
+      For teams building on MongoDB. Covers anti-patterns, fundamentals, and 11 design patterns — the document-model
+      guidance MongoDB's own team uses.
+    recommender_note: >-
+      Reach for this when you're on MongoDB. It's maintained by MongoDB, kept current with Atlas's own Performance
+      Advisor and Schema Suggestions, and covers the anti-patterns most teams don't learn until they hit them in
+      production.
     source_url: https://github.com/mongodb/agent-skills
     source_skill_url: https://github.com/mongodb/agent-skills/blob/main/skills/mongodb-schema-design/SKILL.md
     install_command: /plugin install mongodb/agent-skills
-    last_verified: "2026-04-19"
+    license: Apache-2.0
+    last_verified: '2026-04-19'
     layers:
       skill: https://github.com/mongodb/agent-skills/blob/main/skills/mongodb-schema-design/SKILL.md
       plugin: https://github.com/mongodb/agent-skills
     tags:
       - tech:mongodb
       - tech:database
-
   - id: supabase-postgres-best-practices
     name: Supabase Postgres Best Practices
     author: Supabase
     author_type: company
-    context_fit: "For teams building on Postgres or Supabase. Broader than schema alone — also covers query performance, RLS, connection pooling, and locking — but its Schema Design category is the canonical Postgres counterpart to MongoDB's guide."
-    recommender_note: "Reach for this when you're on Postgres. Supabase maintains it with prioritized rules (query, connection, security, schema, concurrency, and more) that read as a single checklist for a Postgres codebase. Use it alongside Postgres's own docs for anything RLS- or pooling-related."
+    context_fit: >-
+      For teams building on Postgres or Supabase. Broader than schema alone — also covers query performance, RLS,
+      connection pooling, and locking — but its Schema Design category is the canonical Postgres counterpart to
+      MongoDB's guide.
+    recommender_note: >-
+      Reach for this when you're on Postgres. Supabase maintains it with prioritized rules (query, connection, security,
+      schema, concurrency, and more) that read as a single checklist for a Postgres codebase. Use it alongside
+      Postgres's own docs for anything RLS- or pooling-related.
     source_url: https://github.com/supabase/agent-skills
     source_skill_url: https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md
     install_command: /plugin install supabase/agent-skills
-    last_verified: "2026-04-19"
+    license: MIT
+    last_verified: '2026-04-19'
     layers:
       skill: https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md
       plugin: https://github.com/supabase/agent-skills
