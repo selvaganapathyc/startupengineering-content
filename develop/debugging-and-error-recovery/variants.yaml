@@ -7,7 +7,10 @@ variants:
       Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or
       you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause
       rather than guessing.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/debugging-and-error-recovery/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-debugging-and-error-recovery/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/debugging-and-error-recovery/SKILL.md
     tags: []

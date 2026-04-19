@@ -7,7 +7,10 @@ variants:
       Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when
       you need to prove that code works, when a bug report arrives, or when you're about to modify existing
       functionality.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/test-driven-development/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-test-driven-development/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/test-driven-development/SKILL.md
     tags: []

@@ -6,7 +6,10 @@ variants:
     context_fit: >-
       Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies
       to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/using-agent-skills/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-using-agent-skills/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/using-agent-skills/SKILL.md
     tags: []

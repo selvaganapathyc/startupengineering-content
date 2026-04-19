@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: f059f68
+  git_sha: debd92a
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json

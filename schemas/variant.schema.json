@@ -4,7 +4,7 @@
   "title": "Variant",
   "description": "A single skill variant entry in a topic's variants.yaml",
   "type": "object",
-  "required": ["id", "name", "author", "author_type", "context_fit", "layers"],
+  "required": ["id", "name", "author", "author_type", "context_fit", "source_url", "layers"],
   "properties": {
     "id": {
       "type": "string",
@@ -40,7 +40,7 @@
     "source_url": {
       "type": "string",
       "format": "uri",
-      "description": "Canonical URL for the variant. Required when author != Selva."
+      "description": "Canonical URL for the variant. Required for every variant."
     },
     "source_skill_url": {
       "type": "string",
@@ -80,7 +80,7 @@
         "not": { "properties": { "author": { "const": "Selva" } } }
       },
       "then": {
-        "required": ["source_url", "recommender_note"]
+        "required": ["recommender_note"]
       }
     },
     {

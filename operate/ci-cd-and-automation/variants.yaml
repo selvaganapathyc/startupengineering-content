@@ -6,7 +6,10 @@ variants:
     context_fit: >-
       Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need
       to automate quality gates, configure test runners in CI, or establish deployment strategies.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/ci-cd-and-automation/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-ci-cd-and-automation/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/ci-cd-and-automation/SKILL.md
     tags: []

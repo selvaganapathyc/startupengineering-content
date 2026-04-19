@@ -7,7 +7,10 @@ variants:
       Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use
       when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries
       between frontend and backend.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/api-and-interface-design/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-api-and-interface-design/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/api-and-interface-design/SKILL.md
     tags: []

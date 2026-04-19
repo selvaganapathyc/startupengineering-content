@@ -7,7 +7,10 @@ variants:
       Tests in real browsers. Use when building or debugging anything that runs in a browser. Use when you need to
       inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output
       with real runtime data via Chrome DevTools MCP.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/browser-testing-with-devtools/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-browser-testing-with-devtools/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/browser-testing-with-devtools/SKILL.md
     tags: []

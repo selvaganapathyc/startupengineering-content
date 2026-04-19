@@ -6,7 +6,10 @@ variants:
     context_fit: >-
       Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited
       code free from outdated patterns. Use when building with any framework or library where correctness matters.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/source-driven-development/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-source-driven-development/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/source-driven-development/SKILL.md
     tags: []

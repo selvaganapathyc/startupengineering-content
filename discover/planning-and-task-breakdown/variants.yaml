@@ -7,7 +7,10 @@ variants:
       Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into
       implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel
       work is possible.
+    source_url: https://github.com/selvaganapathyc/startupengineering
+    source_skill_url: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/planning-and-task-breakdown/SKILL.md
+    install_command: /plugin install selvaganapathyc/startupengineering
     last_verified: '2026-04-19'
     layers:
-      skill: ./selva-planning-and-task-breakdown/skill.md
+      skill: https://github.com/selvaganapathyc/startupengineering/blob/main/skills/planning-and-task-breakdown/SKILL.md
     tags: []
