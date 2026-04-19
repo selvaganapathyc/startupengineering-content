@@ -15,3 +15,21 @@ variants:
     tags:
       - tech:mongodb
       - tech:database
+
+  - id: supabase-postgres-best-practices
+    name: Supabase Postgres Best Practices
+    author: Supabase
+    author_type: company
+    context_fit: "For teams building on Postgres or Supabase. Broader than schema alone — also covers query performance, RLS, connection pooling, and locking — but its Schema Design category is the canonical Postgres counterpart to MongoDB's guide."
+    recommender_note: "Reach for this when you're on Postgres. Supabase maintains it with prioritized rules (query, connection, security, schema, concurrency, and more) that read as a single checklist for a Postgres codebase. Use it alongside Postgres's own docs for anything RLS- or pooling-related."
+    source_url: https://github.com/supabase/agent-skills
+    source_skill_url: https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md
+    install_command: /plugin install supabase/agent-skills
+    last_verified: "2026-04-19"
+    layers:
+      skill: https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md
+      plugin: https://github.com/supabase/agent-skills
+    tags:
+      - tech:postgres
+      - tech:supabase
+      - tech:database

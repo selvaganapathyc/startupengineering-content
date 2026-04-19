@@ -21,8 +21,10 @@ never design for a database feature you are not using.
 
 ## Choosing a variant
 
-Pick the variant that matches your datastore. MongoDB's own team maintains
-the canonical document-model guidance and keeps it current with Atlas's
-actual suggestions and failure modes — reach for it when you're on MongoDB
-and need to design or audit a schema. Variants for other datastores will
-be added here as they become available.
+Pick the variant that matches your datastore. If you’re on MongoDB, use
+the MongoDB team’s own document-model guidance — it’s the canonical source
+and stays current with Atlas’s Performance Advisor. If you’re on Postgres
+(or Supabase), use the Supabase-authored Postgres guide — it’s broader
+than schema alone, with rules prioritized by impact, and its Schema Design
+category is the natural Postgres counterpart to MongoDB’s. Variants for
+other datastores will be added here as they become available.

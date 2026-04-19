@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: 9d80166
+  git_sha: 843acea
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -96,13 +96,14 @@ categories:
 stats:
   total_phases: 6
   total_topics: 22
-  total_variants: 22
+  total_variants: 23
   variants_by_author_type:
     individual: 21
-    company: 1
+    company: 2
   variants_by_author:
     Selva: 21
     MongoDB: 1
+    Supabase: 1
 parking_lot:
   count: 0
   path: ./parking-lot/unplaced-skills.yaml
