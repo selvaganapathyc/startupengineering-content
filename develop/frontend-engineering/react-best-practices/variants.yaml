@@ -1,0 +1,20 @@
+variants:
+  - id: vercel-react-best-practices
+    name: React Best Practices
+    author: Vercel
+    author_type: company
+    context_fit: >-
+      For teams shipping React or Next.js. Use when writing, reviewing, or refactoring components, data fetching,
+      or rendering paths — covers waterfall elimination, bundle size, server-side performance, and re-render
+      optimization across 70 prioritized rules.
+    recommender_note: >-
+      Reach for this when you're on React or Next.js and want a single, opinionated rulebook from the team that
+      maintains the framework. Vercel's engineers organize it by impact (CRITICAL → LOW), so it doubles as a
+      review checklist for performance-sensitive PRs.
+    source_url: https://github.com/vercel-labs/agent-skills
+    source_skill_url: https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
+    license: MIT
+    last_verified: '2026-04-20'
+    layers:
+      skill: https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
+    tags: []

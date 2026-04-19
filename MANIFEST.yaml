@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: 3959aac
+  git_sha: 07e190f
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -73,7 +73,12 @@ phases:
       - source-driven-development
       - test-driven-development
       - using-agent-skills
-    sub_areas: []
+    sub_areas:
+      - slug: frontend-engineering
+        title: Frontend Engineering
+        path: ./develop/frontend-engineering
+        topics:
+          - react-best-practices
   - slug: validate
     title: Validate
     phase_number: 5
@@ -100,16 +105,17 @@ categories:
     type: onboarding
 stats:
   total_phases: 6
-  total_topics: 23
-  total_variants: 24
+  total_topics: 24
+  total_variants: 25
   variants_by_author_type:
     individual: 21
-    company: 3
+    company: 4
   variants_by_author:
     Selva: 21
     MongoDB: 1
     Supabase: 1
     Anthropic: 1
+    Vercel: 1
 parking_lot:
   count: 0
   path: ./parking-lot/unplaced-skills.yaml
