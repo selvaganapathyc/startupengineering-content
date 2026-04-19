@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: 07e190f
+  git_sha: b80a9a3
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -69,16 +69,12 @@ phases:
       - code-simplification
       - context-engineering
       - debugging-and-error-recovery
+      - frontend-engineering
       - incremental-implementation
       - source-driven-development
       - test-driven-development
       - using-agent-skills
-    sub_areas:
-      - slug: frontend-engineering
-        title: Frontend Engineering
-        path: ./develop/frontend-engineering
-        topics:
-          - react-best-practices
+    sub_areas: []
   - slug: validate
     title: Validate
     phase_number: 5
