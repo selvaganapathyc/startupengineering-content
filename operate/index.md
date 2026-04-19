@@ -1,7 +1,9 @@
 ---
 title: Operate
-phase: operate
-subtitle: Reliability, scale, operate
+slug: operate
+phase_number: 6
+short_description: Reliability, scale, operate
+audience: []
 ---
 
 Reliability, observability, scaling, incident response. The ongoing

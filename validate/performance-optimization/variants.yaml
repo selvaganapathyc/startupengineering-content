@@ -1,0 +1,13 @@
+variants:
+  - id: selva-performance-optimization
+    name: Performance Optimization
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Optimizes application performance. Use when performance requirements exist, when you suspect performance
+      regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that
+      need fixing.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-performance-optimization/skill.md
+    tags: []

@@ -1,7 +1,9 @@
 ---
 title: Develop
-phase: develop
-subtitle: Build, review, ship code
+slug: develop
+phase_number: 4
+short_description: Build, review, ship code
+audience: []
 ---
 
 The largest phase, because this is where most time is spent. Build the thing,

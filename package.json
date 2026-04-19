@@ -1,0 +1,17 @@
+{
+  "name": "startupengineering-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts for validating and managing the startupengineering content repo. The content itself is framework-agnostic markdown + YAML; this package.json exists only for the validation and manifest-generation scripts.",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "manifest": "node scripts/generate-manifest.js",
+    "check-links": "node scripts/check-links.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0"
+  }
+}

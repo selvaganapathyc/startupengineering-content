@@ -1,0 +1,13 @@
+variants:
+  - id: selva-code-review-and-quality
+    name: Code Review And Quality
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself,
+      another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters
+      the main branch.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-code-review-and-quality/skill.md
+    tags: []

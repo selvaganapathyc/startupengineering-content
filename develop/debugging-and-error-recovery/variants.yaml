@@ -1,0 +1,13 @@
+variants:
+  - id: selva-debugging-and-error-recovery
+    name: Debugging And Error Recovery
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or
+      you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause
+      rather than guessing.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-debugging-and-error-recovery/skill.md
+    tags: []

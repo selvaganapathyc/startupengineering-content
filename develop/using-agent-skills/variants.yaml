@@ -1,0 +1,12 @@
+variants:
+  - id: selva-using-agent-skills
+    name: Using Agent Skills
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies
+      to the current task. This is the meta-skill that governs how all other skills are discovered and invoked.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-using-agent-skills/skill.md
+    tags: []

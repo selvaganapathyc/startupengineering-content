@@ -1,7 +1,9 @@
 ---
 title: Validate
-phase: validate
-subtitle: Prove the bet, measure value
+slug: validate
+phase_number: 5
+short_description: Prove the bet, measure value
+audience: []
 ---
 
 Prove the bet. Measure whether what you built actually moves the outcome

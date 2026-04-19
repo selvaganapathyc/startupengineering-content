@@ -1,0 +1,13 @@
+variants:
+  - id: selva-browser-testing-with-devtools
+    name: Browser Testing With Devtools
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Tests in real browsers. Use when building or debugging anything that runs in a browser. Use when you need to
+      inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output
+      with real runtime data via Chrome DevTools MCP.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-browser-testing-with-devtools/skill.md
+    tags: []

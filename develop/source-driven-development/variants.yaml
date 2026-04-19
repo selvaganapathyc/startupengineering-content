@@ -1,0 +1,12 @@
+variants:
+  - id: selva-source-driven-development
+    name: Source Driven Development
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited
+      code free from outdated patterns. Use when building with any framework or library where correctness matters.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-source-driven-development/skill.md
+    tags: []

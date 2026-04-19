@@ -1,0 +1,13 @@
+variants:
+  - id: selva-api-and-interface-design
+    name: Api And Interface Design
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use
+      when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries
+      between frontend and backend.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-api-and-interface-design/skill.md
+    tags: []

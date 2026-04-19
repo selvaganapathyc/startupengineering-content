@@ -1,0 +1,12 @@
+variants:
+  - id: selva-context-engineering
+    name: Context Engineering
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching
+      between tasks, or when you need to configure rules files and context for a project.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-context-engineering/skill.md
+    tags: []

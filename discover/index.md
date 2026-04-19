@@ -1,7 +1,9 @@
 ---
 title: Discover
-phase: discover
-subtitle: Solution options, feasibility
+slug: discover
+phase_number: 2
+short_description: Solution options, feasibility
+audience: []
 ---
 
 You have a problem worth solving. Discovery is where you generate options,

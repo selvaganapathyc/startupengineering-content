@@ -1,0 +1,13 @@
+variants:
+  - id: selva-test-driven-development
+    name: Test Driven Development
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when
+      you need to prove that code works, when a bug report arrives, or when you're about to modify existing
+      functionality.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-test-driven-development/skill.md
+    tags: []

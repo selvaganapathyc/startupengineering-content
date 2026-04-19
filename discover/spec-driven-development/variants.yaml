@@ -1,0 +1,12 @@
+variants:
+  - id: selva-spec-driven-development
+    name: Spec Driven Development
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Creates specs before coding. Use when starting a new project, feature, or significant change and no specification
+      exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-spec-driven-development/skill.md
+    tags: []

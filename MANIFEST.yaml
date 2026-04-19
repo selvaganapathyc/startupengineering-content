@@ -1,0 +1,106 @@
+# AUTO-GENERATED. Do not edit by hand. Regenerate with `node scripts/generate-manifest.js`.
+version: 1.0.0
+content_repo:
+  name: startupengineering
+  description: Curated knowledge base for startup engineering in the agentic era.
+  author: Selva Ganapathy
+  canonical_site: https://startupengineering.io
+  license: CC-BY-4.0
+  last_updated: '2026-04-19'
+  git_sha: 453f27a
+schemas:
+  variant: ./schemas/variant.schema.json
+  topic_frontmatter: ./schemas/topic-frontmatter.schema.json
+  phase_frontmatter: ./schemas/phase-frontmatter.schema.json
+  subarea_frontmatter: ./schemas/subarea-frontmatter.schema.json
+phases:
+  - slug: define
+    title: Define
+    phase_number: 1
+    path: ./define
+    topics:
+      - idea-refine
+    sub_areas: []
+  - slug: discover
+    title: Discover
+    phase_number: 2
+    path: ./discover
+    topics:
+      - planning-and-task-breakdown
+      - spec-driven-development
+    sub_areas: []
+  - slug: design
+    title: Design
+    phase_number: 3
+    path: ./design
+    topics: []
+    sub_areas:
+      - slug: api-design
+        title: API design
+        path: ./design/api-design
+        topics:
+          - api-and-interface-design
+      - slug: data-design
+        title: Data design
+        path: ./design/data-design
+        topics: []
+      - slug: observability-design
+        title: Observability design
+        path: ./design/observability-design
+        topics: []
+      - slug: system-architecture
+        title: System architecture
+        path: ./design/system-architecture
+        topics:
+          - documentation-and-adrs
+          - frontend-ui-engineering
+  - slug: develop
+    title: Develop
+    phase_number: 4
+    path: ./develop
+    topics:
+      - code-review-and-quality
+      - code-simplification
+      - context-engineering
+      - debugging-and-error-recovery
+      - incremental-implementation
+      - source-driven-development
+      - test-driven-development
+      - using-agent-skills
+    sub_areas: []
+  - slug: validate
+    title: Validate
+    phase_number: 5
+    path: ./validate
+    topics:
+      - browser-testing-with-devtools
+      - performance-optimization
+      - shipping-and-launch
+    sub_areas: []
+  - slug: operate
+    title: Operate
+    phase_number: 6
+    path: ./operate
+    topics:
+      - ci-cd-and-automation
+      - deprecation-and-migration
+      - git-workflow-and-versioning
+      - security-and-hardening
+    sub_areas: []
+categories:
+  - slug: agentic-engineering
+    title: Agentic Engineering
+    path: ./agentic-engineering
+    type: onboarding
+stats:
+  total_phases: 6
+  total_topics: 21
+  total_variants: 21
+  variants_by_author_type:
+    individual: 21
+    company: 0
+  variants_by_author:
+    Selva: 21
+parking_lot:
+  count: 0
+  path: ./parking-lot/unplaced-skills.yaml

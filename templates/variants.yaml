@@ -1,0 +1,41 @@
+variants:
+  # Pattern A: Selva-authored local variant.
+  - id: selva-topic-slug
+    name: Variant name
+    author: Selva
+    author_type: individual
+    context_fit: "When this variant fits. Written by Selva regardless of author."
+    last_verified: 2026-04-19
+    layers:
+      skill: ./selva-topic-slug/skill.md
+    tags: []
+
+  # Pattern B: Curated individual recommendation (uncomment to use).
+  # - id: person-variant-slug
+  #   name: Variant name
+  #   author: Person Name
+  #   author_type: individual
+  #   context_fit: "When this variant fits."
+  #   source_url: https://example.com/repo
+  #   source_skill_url: https://example.com/repo/blob/main/SKILL.md
+  #   recommender_note: "Selva's reason for including this variant."
+  #   last_verified: 2026-04-19
+  #   layers:
+  #     skill: https://example.com/repo/blob/main/SKILL.md
+  #   tags: []
+
+  # Pattern C: Company-authored canonical skill (uncomment to use).
+  # - id: company-variant-slug
+  #   name: Variant name
+  #   author: Company Name
+  #   author_type: company
+  #   context_fit: "When this variant fits."
+  #   source_url: https://github.com/org/repo
+  #   source_skill_url: https://github.com/org/repo/blob/main/skills/name/SKILL.md
+  #   install_command: "/plugin install org/repo"
+  #   recommender_note: "Selva's reason for including this variant."
+  #   last_verified: 2026-04-19
+  #   layers:
+  #     skill: https://github.com/org/repo/blob/main/skills/name/SKILL.md
+  #     plugin: https://github.com/org/repo
+  #   tags: []

@@ -1,7 +1,9 @@
 ---
 title: Define
-phase: define
-subtitle: Problem, user, bet
+slug: define
+phase_number: 1
+short_description: Problem, user, bet
+audience: []
 ---
 
 Before you design anything, you define what's worth designing. The skills in

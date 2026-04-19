@@ -1,0 +1,12 @@
+variants:
+  - id: selva-ci-cd-and-automation
+    name: Ci Cd And Automation
+    author: Selva
+    author_type: individual
+    context_fit: >-
+      Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need
+      to automate quality gates, configure test runners in CI, or establish deployment strategies.
+    last_verified: '2026-04-19'
+    layers:
+      skill: ./selva-ci-cd-and-automation/skill.md
+    tags: []

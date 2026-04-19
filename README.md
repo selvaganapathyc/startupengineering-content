@@ -1,25 +1,55 @@
 # startupengineering
 
-How to build products in a startup context.
+Curated knowledge base for building startups in the agentic era, by Selva Ganapathy.
 
-This repo is the backend for [startupengineering.io](https://startupengineering.io). It can be consumed three ways:
+This is a **content repo** — markdown, YAML, and supporting assets only. It is the
+source of truth consumed by humans browsing the files, agents fetching them cold,
+forks building their own renderings, and the canonical site at
+<https://startupengineering.io>.
 
-1. **Agent** — connect an agent (Claude Code, etc.) to this repo and ask it anything.
-2. **Website** — rendered at startupengineering.io.
-3. **Local** — clone and browse in Obsidian or any markdown viewer.
+## What's here
 
-## Structure
+Six lifecycle phases, plus a non-lifecycle onboarding category:
 
-Skills are grouped by where they live in the SDLC:
+- `define/` — Problem, user, bet
+- `discover/` — Solution options, feasibility
+- `design/` — APIs, schemas, architecture (has sub-areas)
+- `develop/` — Build, review, ship code
+- `validate/` — Prove the bet, measure value
+- `operate/` — Reliability, scale, operate
+- `agentic-engineering/` — Onboarding for working with coding agents
 
-- [`planning-and-design/`](./planning-and-design) — decide what to build.
-- [`implementation/`](./implementation) — how to build it well.
-- [`code-quality/`](./code-quality) — keep the codebase healthy.
-- [`security-and-performance/`](./security-and-performance) — harden and speed up.
-- [`delivery-and-operations/`](./delivery-and-operations) — ship and run it.
-- [`agent-workflow/`](./agent-workflow) — meta-skills for working with agents.
+## Layout
 
-Plus:
+Each topic lives in `[phase]/[topic]/` (or `[phase]/[sub-area]/[topic]/`) and has:
 
-- [`templates/`](./templates) — reusable doc/code templates.
-- [`meta/`](./meta) — conventions, taxonomy, contribution guide.
+- `index.md` — the principle (Selva's "why this matters") plus a short
+  "choosing a variant" framing.
+- `variants.yaml` — metadata for every variant that applies the principle.
+  Selva-authored variants point to a local `./selva-*/skill.md`. Individual
+  and company recommendations point to external URLs.
+- `selva-*/skill.md` — the agent-facing skill for each Selva-authored variant.
+
+Top-level helpers:
+
+- `schemas/` — JSON Schemas that formalize the shapes above.
+- `scripts/` — `validate.js`, `generate-manifest.js`, `check-links.js`.
+- `shared/` — cross-cutting content (philosophy, glossary).
+- `MANIFEST.yaml` — auto-generated machine-readable index of the whole repo.
+
+## Consuming this repo
+
+- **Humans:** browse the folders; each `index.md` is readable on its own.
+- **Agents:** start at [AGENTS.md](./AGENTS.md) and [MANIFEST.yaml](./MANIFEST.yaml).
+- **Site / tool builders:** [STRUCTURE.md](./STRUCTURE.md) describes the file
+  formats; [VERSIONING.md](./VERSIONING.md) describes how this repo evolves.
+
+## Contributing
+
+Open a pull request. CI runs `node scripts/validate.js` against every change.
+Please read `STRUCTURE.md` before adding a new topic or variant.
+
+## License
+
+Selva-authored content: [CC-BY-4.0](./LICENSE). Variants that point to external
+sources retain their original authors' licenses.

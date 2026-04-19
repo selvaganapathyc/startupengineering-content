@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://startupengineering.io/schemas/variant.schema.json",
+  "title": "Variant",
+  "description": "A single skill variant entry in a topic's variants.yaml",
+  "type": "object",
+  "required": ["id", "name", "author", "author_type", "context_fit", "layers"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable, immutable identifier. Format: [author-key]-[short-name]."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the author. Person or organization."
+    },
+    "author_type": {
+      "type": "string",
+      "enum": ["individual", "company"]
+    },
+    "context_fit": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 400,
+      "description": "When this variant fits. Written by Selva regardless of author."
+    },
+    "recommender_note": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 400,
+      "description": "Selva's reason for including. Required when author != Selva. Must be omitted when author == Selva."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL for the variant. Required when author != Selva."
+    },
+    "source_skill_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to skill.md at source. Recommended for curated variants."
+    },
+    "install_command": {
+      "type": "string"
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "layers": {
+      "type": "object",
+      "properties": {
+        "skill": {
+          "type": "string",
+          "description": "Path (./...) for local, URL (http...) for external."
+        },
+        "visual": { "type": "string" },
+        "plugin": { "type": "string" },
+        "mcp": { "type": "string" }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+:[a-z0-9-]+$"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "not": { "properties": { "author": { "const": "Selva" } } }
+      },
+      "then": {
+        "required": ["source_url", "recommender_note"]
+      }
+    },
+    {
+      "if": { "properties": { "author": { "const": "Selva" } } },
+      "then": { "not": { "required": ["recommender_note"] } }
+    }
+  ]
+}
