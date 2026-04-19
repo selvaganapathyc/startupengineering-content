@@ -126,7 +126,7 @@ function generateManifest(opts = {}) {
   return {
     version: "1.0.0",
     content_repo: {
-      name: "startupengineering",
+      name: "startupengineering-content",
       description:
         "Curated knowledge base for startup engineering in the agentic era.",
       author: "Selva Ganapathy",

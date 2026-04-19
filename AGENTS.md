@@ -6,7 +6,7 @@ for building startups in the agentic era. This file tells you how to navigate it
 ## Folder tree
 
 ```
-startupengineering/
+startupengineering-content/
 ├── README.md                         # Human-oriented intro
 ├── AGENTS.md                         # This file
 ├── MANIFEST.yaml                     # Machine-readable overview of the whole repo

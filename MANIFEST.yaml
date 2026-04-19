@@ -1,13 +1,13 @@
 # AUTO-GENERATED. Do not edit by hand. Regenerate with `node scripts/generate-manifest.js`.
 version: 1.0.0
 content_repo:
-  name: startupengineering
+  name: startupengineering-content
   description: Curated knowledge base for startup engineering in the agentic era.
   author: Selva Ganapathy
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: 453f27a
+  git_sha: f059f68
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json

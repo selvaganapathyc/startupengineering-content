@@ -1,4 +1,4 @@
-# startupengineering
+# startupengineering-content
 
 Curated knowledge base for building startups in the agentic era, by Selva Ganapathy.
 
