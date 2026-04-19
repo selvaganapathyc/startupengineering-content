@@ -1,0 +1,21 @@
+variants:
+  - id: anthropic-frontend-design
+    name: Frontend Design
+    author: Anthropic
+    author_type: company
+    context_fit: >-
+      For teams who want AI-generated frontends to stop looking AI-generated.
+      Pushes toward intentional typography, bold aesthetic direction, and
+      production-grade code over generic defaults (Inter + purple gradient).
+    recommender_note: >-
+      Reach for this when Claude is generating UI and you want it to commit
+      to a distinct aesthetic rather than defaulting to safe, templated
+      design. Authored and maintained by Anthropic as part of their public
+      skills repo.
+    source_url: https://github.com/anthropics/skills
+    source_skill_url: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+    license: Apache-2.0
+    last_verified: '2026-04-19'
+    layers:
+      skill: https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+    tags: []

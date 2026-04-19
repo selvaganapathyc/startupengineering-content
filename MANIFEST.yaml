@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: 6179edc
+  git_sha: 3959aac
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -55,6 +55,11 @@ phases:
         topics:
           - documentation-and-adrs
           - frontend-ui-engineering
+      - slug: ui-ux-design
+        title: UI/UX Design
+        path: ./design/ui-ux-design
+        topics:
+          - frontend-design
   - slug: develop
     title: Develop
     phase_number: 4
@@ -95,15 +100,16 @@ categories:
     type: onboarding
 stats:
   total_phases: 6
-  total_topics: 22
-  total_variants: 23
+  total_topics: 23
+  total_variants: 24
   variants_by_author_type:
     individual: 21
-    company: 2
+    company: 3
   variants_by_author:
     Selva: 21
     MongoDB: 1
     Supabase: 1
+    Anthropic: 1
 parking_lot:
   count: 0
   path: ./parking-lot/unplaced-skills.yaml
