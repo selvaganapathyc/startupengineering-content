@@ -7,7 +7,7 @@ content_repo:
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
   last_updated: '2026-04-19'
-  git_sha: debd92a
+  git_sha: 9d80166
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -43,7 +43,8 @@ phases:
       - slug: data-design
         title: Data design
         path: ./design/data-design
-        topics: []
+        topics:
+          - schema-design
       - slug: observability-design
         title: Observability design
         path: ./design/observability-design
@@ -94,13 +95,14 @@ categories:
     type: onboarding
 stats:
   total_phases: 6
-  total_topics: 21
-  total_variants: 21
+  total_topics: 22
+  total_variants: 22
   variants_by_author_type:
     individual: 21
-    company: 0
+    company: 1
   variants_by_author:
     Selva: 21
+    MongoDB: 1
 parking_lot:
   count: 0
   path: ./parking-lot/unplaced-skills.yaml
