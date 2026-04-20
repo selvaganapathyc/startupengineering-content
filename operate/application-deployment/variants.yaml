@@ -1,0 +1,19 @@
+variants:
+  - id: vercel-deploy-to-vercel
+    name: Deploy to Vercel
+    author: Vercel
+    author_type: company
+    context_fit: >-
+      Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app",
+      "deploy and give me the link", "push this live", or "create a preview deployment".
+    recommender_note: >-
+      Reach for this when you're already on (or moving to) Vercel and want an agent that drives the CLI correctly —
+      it defaults to preview deploys, handles team scoping, and nudges you toward the linked-project + git-push setup
+      that makes every future deploy a one-liner. Maintained by Vercel's own team, so it tracks CLI changes closely.
+    source_url: https://github.com/vercel-labs/agent-skills
+    source_skill_url: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
+    license: MIT
+    last_verified: '2026-04-20'
+    layers:
+      skill: https://github.com/vercel-labs/agent-skills/blob/main/skills/deploy-to-vercel/SKILL.md
+    tags: []

@@ -6,8 +6,8 @@ content_repo:
   author: Selva Ganapathy
   canonical_site: https://startupengineering.io
   license: CC-BY-4.0
-  last_updated: '2026-04-19'
-  git_sha: b80a9a3
+  last_updated: '2026-04-20'
+  git_sha: 0cd75b5
 schemas:
   variant: ./schemas/variant.schema.json
   topic_frontmatter: ./schemas/topic-frontmatter.schema.json
@@ -89,6 +89,7 @@ phases:
     phase_number: 6
     path: ./operate
     topics:
+      - application-deployment
       - ci-cd-and-automation
       - deprecation-and-migration
       - git-workflow-and-versioning
@@ -101,17 +102,17 @@ categories:
     type: onboarding
 stats:
   total_phases: 6
-  total_topics: 24
-  total_variants: 25
+  total_topics: 25
+  total_variants: 26
   variants_by_author_type:
     individual: 21
-    company: 4
+    company: 5
   variants_by_author:
     Selva: 21
     MongoDB: 1
     Supabase: 1
     Anthropic: 1
-    Vercel: 1
+    Vercel: 2
 parking_lot:
   count: 0
   path: ./parking-lot/unplaced-skills.yaml
